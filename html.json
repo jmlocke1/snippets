@@ -18,7 +18,7 @@
 			"<picture>",
 				"\t<source srcset=\"$1.avif\" type=\"image/avif\">",
 				"\t<source srcset=\"$1.webp\" type=\"image/webp\">",
-				"\t<img loading=\"lazy\" src=\"$1.jpg\" alt=\"$2\" title=\"$3\">",
+				"\t<img loading=\"lazy\" src=\"$1.jpg\" width=\"500\" heigth=\"300\" alt=\"$2\" title=\"$3\">",
 			"</picture>"
 		],
 		"description": "Crea el esqueleto para una imagen en varios formatos, avif, webp y jpg"
